@@ -1,3 +1,9 @@
+# Spring配置
+spring:
+  # 环境选择
+  profiles:
+    active: default
+
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
 server:
